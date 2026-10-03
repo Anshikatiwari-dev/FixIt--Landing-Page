@@ -30,7 +30,7 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen bg-[#020617] text-slate-100 overflow-x-hidden selection:bg-teal-500/30 selection:text-white">
+    <div className="relative min-h-screen text-slate-100 overflow-x-hidden selection:bg-teal-500/30 selection:text-white">
       {/* Background radial glows and blueprint grid */}
       <BackgroundGlows />
 

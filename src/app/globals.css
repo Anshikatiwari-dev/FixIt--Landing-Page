@@ -12,11 +12,8 @@
   }
 
   body {
-    background-color: #020617;
-    background-image: 
-      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(34, 211, 238, 0.12), transparent),
-      radial-gradient(ellipse 60% 40% at 85% 10%, rgba(59, 130, 246, 0.15), transparent),
-      linear-gradient(to bottom, #020617 0%, #050b1f 50%, #0a1433 100%);
+    /* background-color and background-image removed — reserved for scroll-based video layer */
+    background-color: transparent;
     color: #f8fafc;
     font-family: var(--font-dm-sans), sans-serif;
     overflow-x: hidden;
@@ -33,7 +30,7 @@
     width: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: #020617;
+    background: transparent;
   }
   ::-webkit-scrollbar-thumb {
     background: #1e293b;

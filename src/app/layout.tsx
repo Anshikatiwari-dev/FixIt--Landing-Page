@@ -35,7 +35,7 @@ export default function RootLayout({
       lang="en"
       className={`${dmSans.variable} ${jetbrainsMono.variable} scroll-smooth antialiased`}
     >
-      <body className="min-h-screen bg-[#020617] text-slate-100 flex flex-col font-sans selection:bg-teal-500/30 selection:text-white">
+      <body className="min-h-screen text-slate-100 flex flex-col font-sans selection:bg-teal-500/30 selection:text-white">
         {children}
       </body>
     </html>
